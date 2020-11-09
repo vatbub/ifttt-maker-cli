@@ -54,11 +54,11 @@
     <parent>
         <groupId>com.github.vatbub</groupId>
         <artifactId>kotlinParentPom</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>ifttt-maker-cli</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
 
     <properties>
         <gitRepoName>ifttt-maker-cli</gitRepoName>
@@ -71,7 +71,7 @@
         <connection>scm:git:git@github.com:vatbub/${gitRepoName}.git</connection>
         <url>https://github.com/vatbub/${gitRepoName}</url>
         <developerConnection>scm:git:git@github.com:vatbub/${gitRepoName}.git</developerConnection>
-        <tag>ifttt-maker-cli-1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
